@@ -14,7 +14,6 @@ def most_frequent(st):
 
 str1 = input("Enter a string: ")
 b = most_frequent(str1)
-print(b)
 
 dic = sorted(b.items(), key = lambda x : x[1] , reverse = True)
 
